@@ -9,7 +9,7 @@ const forecast=(latitude,longitude,callback) =>{
             callback("cordinate error ,try another one",undefined)
         }
         else{
-            callback(undefined,"temperature is  " + body.current.temperature +" feel like "+body.current.feelslike)
+            callback(undefined,"temperature is  " + body.current.temperature +" celcius // feel like "+body.current.feelslike+" celcius")
         }
     } )
 

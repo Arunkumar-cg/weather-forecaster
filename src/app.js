@@ -18,21 +18,21 @@ app.use(express.static(pathdiri))
 
 app.get('',(req,res)=>{
     res.render('index',{
-        title:'weather App',
+        title:'weather forecaster',
         name:'arun'
     })
 })
 app.get('/about',(req,res) =>{
     res.render('about',{
         to:'hai everybody',
-        title:'weather',
+        title:'about',
         name:'arun'
     })
 })
 app.get('/help',(req,res)=>
 res.render('help',{
     help:"glad to here you",
-    title:'head',
+    title:'Happy to help you',
     name:'arun'
 }))
 

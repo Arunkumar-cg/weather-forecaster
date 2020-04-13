@@ -1,9 +1,10 @@
 body{
-    color:#66bb06;
+    color:#81857d;
     font-family: Arial, Helvetica, sans-serif;
     max-width: 650px;
-    margin: 10px auto;
-    padding: 5px auto;
+    margin:60px auto;
+    
+    padding: 50px auto;
     
     font-size: 23px;
 
@@ -17,10 +18,11 @@ body{
     flex-grow: 1;
 }
 footer{
-    color:brown;
-    border-top:10px solid #a1ff00 ;
+    color:rgb(9, 7, 133);
+    border-top:10px solid #6028c9 ;
     margin-top: 10px;
     padding-top: 5px;
+    font-family: font-family: 'Girassol', cursive;
 }
 header {
     margin-top: 10px;
@@ -30,12 +32,12 @@ header {
 }
 h1{
     font-size: 64px;
-    color: #830b65;
+    color: #e7d8e3;
     text-transform: uppercase;
     text-decoration: underline;
 }
 header a{
-    color:#0f0d0f;
+    color:#0b020f;
     text-decoration:none ;
 }
 input{
@@ -46,4 +48,8 @@ button{
     cursor: pointer;
     color: rgb(151, 148, 145);
     padding: 2px;
+}
+.t{
+font-family:'Lobster', cursive;;
+  color: #ffffff;  
 }
